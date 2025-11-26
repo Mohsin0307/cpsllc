@@ -22,18 +22,7 @@ export default function Services() {
       description: "Efficient admin services to keep your operations smooth.",
       color: "blue"
     },
-    {
-      icon: <Calculator className="w-8 h-8" />,
-      title: "Accounting & Financial Management",
-      description: "Expert accounting to keep you compliant and financially healthy.",
-      color: "emerald"
-    },
-    {
-      icon: <CreditCard className="w-8 h-8" />,
-      title: "Credit Control & Debt Recovery",
-      description: "Maintaining strong cash flow by minimizing overdue payments.",
-      color: "purple"
-    },
+    
     {
       icon: <Lightbulb className="w-8 h-8" />,
       title: "Business Consultancy",
@@ -108,3 +97,4 @@ export default function Services() {
     </section>
   );
 }
+
