@@ -33,31 +33,7 @@ export default function ServicesPage() {
       ],
       color: "blue"
     },
-    {
-      icon: <Calculator className="w-8 h-8" />,
-      title: "Accounting & Financial Management",
-      description: "Stay compliant and financially healthy with our expert accounting services.",
-      features: [
-        "Bookkeeping and financial reporting",
-        "Payroll and pension management",
-        "VAT returns and tax preparation",
-        "Budgeting and cash flow forecasting",
-        "Financial performance reviews"
-      ],
-      color: "emerald"
-    },
-    {
-      icon: <CreditCard className="w-8 h-8" />,
-      title: "Credit Control & Debt Recovery",
-      description: "We help you maintain a strong cash flow and minimize overdue payments.",
-      features: [
-        "Invoice processing and payment tracking",
-        "Credit checks and risk management",
-        "Payment reminders and debtor communication",
-        "Dispute resolution and collection support"
-      ],
-      color: "purple"
-    },
+   
     {
       icon: <Lightbulb className="w-8 h-8" />,
       title: "Business Consultancy",
@@ -298,4 +274,5 @@ export default function ServicesPage() {
       </section>
     </div>
   );
+
 }
